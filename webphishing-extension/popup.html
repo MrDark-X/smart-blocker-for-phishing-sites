@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Phishing Detector</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h2>Phishing Detector</h2>
+  <form id="predict-form">
+    <label for="url">URL:</label>
+    <input type="text" id="url" placeholder="Enter URL" required />
+    <label for="model">Model:</label>
+    <select id="model">
+        <option value="KNN">KNN</option>
+      <option value="Random Forest">Random Forest</option>
+      <option value="SVM">SVM</option>
+    </select>
+    <button type="submit">Check</button>
+  </form>
+  <div id="result"></div>
+  <table id="features-table" style="display:none;">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Value</th>
+        <th>Source</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="popup.js"></script>
+</body>
+</html>
