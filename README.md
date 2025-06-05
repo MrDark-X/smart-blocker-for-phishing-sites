@@ -210,5 +210,3 @@ GitHub: [Smart Blocker Repository](https://github.com/MrDark-X)
 Reach out for suggestions, improvements, or collaboration!
 
 ---
-
-If you’d like this blog converted to HTML or published format, let me know!
