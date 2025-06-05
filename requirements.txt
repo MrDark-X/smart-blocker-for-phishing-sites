@@ -1,0 +1,9 @@
+scikit-learn
+numpy
+pandas
+gradio
+python-dotenv
+requests
+beautifulsoup4
+whois
+tldextract
